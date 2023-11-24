@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringAwsApplication {
 @GetMapping("/")
 	public String home(){
-		return "!!....wellcom to aws.....!!";
+		return "!!....testing github.....!!";
 	}
 
 	public static void main(String[] args) {
