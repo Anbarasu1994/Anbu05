@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringAwsApplication {
 @GetMapping("/")
 	public String home(){
-		return "!!....testing github.....!!";
+		return "!!....testing cicd pipline.....!!";
 	}
 
 	public static void main(String[] args) {
