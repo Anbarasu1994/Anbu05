@@ -12,6 +12,7 @@ public class SpringAwsApplication {
 	public String home(){
 		return "!!....testing cicd pipline.....!!";
 	}
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAwsApplication.class, args);
