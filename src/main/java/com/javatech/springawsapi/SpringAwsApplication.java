@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringAwsApplication {
 @GetMapping("/")
 	public String home(){
-		return "..wellcom to aws...";
+		return "!!....Wellcome CICD testing....!!";
 	}
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAwsApplication.class, args);
